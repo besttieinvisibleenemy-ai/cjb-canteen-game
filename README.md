@@ -2,14 +2,13 @@
 
 A single-file HTML5 time-management game about running the staff canteen at Coimbatore Airport (CJB). Open the GitHub Pages site to play in a browser.
 
-The main page (index.html) is version 9. It adds:
+The main page (index.html) is version 10. It adds:
 
-- a railway halt next to the canteen with three EXAMPLE routes (Chennai, Bengaluru, Kochi), a timetable and RRB-style train aptitude questions worked out from the simulated trains
-- three boats on the river, each with its own still-water speed, current and distance
-- a Cessna airstrip where flights land, refuel, turn around and take off
-- perishable cargo that comes in by train and is flown out by Cessna, with a kg balance and spoilage
-- 1 h, 2 h or 3 h shift blocks alongside the default 4-3-4 split shift (8 h per person, with relief staff added automatically)
-- Tamil and Hindi commentary with voice selection
-- a live voice-over recorder (microphone on the https link only)
+- a bigger staff rest room with 8 seats: a round table with 8 stools and a straight row of 8 stools
+- staff on their rest break walk in and sit on a real seat, and floor arrows show which way each seat faces
+- seating modes: circle facing the centre, circle facing outside, circle mixed, row facing north, row facing south, or Auto (changes every 90 minutes)
+- a waiting sofa for anyone extra when all 8 seats are taken (logged in the day report)
+- a "Seating Reasoning" practice panel in IBPS RRB PO style, built from the staff actually sitting in the room: 6 to 10 clues, 4 or 5 questions, answer reveal with a step-by-step solution and a seating diagram, a practice timer and a New puzzle button. Each puzzle is checked by brute force to have exactly one answer
+- "Show this seating in the rest room", which pauses the game and seats the puzzle's 8 staff so you can see the answer in 3D
 
-Version 8 is kept as v8.html, version 7 as v7.html and version 6 as v6.html. All figures are EXAMPLE values.
+Version 9 (railway halt, boats, Cessna airstrip, 1/2/3 h shift blocks, Tamil/Hindi voice) is kept as v9.html, version 8 as v8.html, version 7 as v7.html and version 6 as v6.html. All figures are EXAMPLE values.
